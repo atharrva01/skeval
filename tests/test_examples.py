@@ -7,6 +7,7 @@ EXAMPLES_DIR = Path(__file__).parents[1] / "examples"
 
 
 def _example_files():
+    """Return all Python example files sorted by name."""
     return sorted(EXAMPLES_DIR.glob("*.py"))
 
 
